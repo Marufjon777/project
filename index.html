@@ -6,19 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
-            <ul class="list_group">
+            <div class="logo">
+                <img src="./css/photo_2022-10-26_16-36-31.jpg"/>
+            </div>
+            <ul id="list" class="list_group ">
                 <li class="list_item"><i class=""></i> <span>Home</span></li>
                 <li class="list_item"><i class=""></i> <span>Music</span></li>
                 <li class="list_item"><i class=""></i> <span>Videos</span></li>
                 <li class="list_item"><i class=""></i> <span>Albums</span></li>
                 <li class="list_item"><i class=""></i> <span>About</span></li>
             </ul>
+            <div class="toggle">
+                <button id="btn"><i class="bi bi-list"></i></button>
+            </div>
         </nav>
     </header>
-    
+    <section class="section_1">
+        <div class="container">
+            <div class="corusel">
+                <div class="corusel_item">
+                    <img src="https://i.ytimg.com/vi/FAg8JZwFM2U/maxresdefault.jpg">
+                </div>
+                <div class="corusel_item">
+                    <img src="https://peoplenews.uz/wp-content/uploads/2021/07/image-72.jpeg">
+                </div>
+                <div class="corusel_item">
+                    <img src="https://uzreport.news/fotobank/image/aa6ce48e83ad2885b47825b9942048ab.jpeg">
+                </div>
+                <div class="corusel_item">
+                    <img src="https://i.pinimg.com/736x/18/bd/41/18bd4134927a899db79cb9ea64643838.jpg">
+                </div>
+            </div>
+            <div class="left">
+                <button class="left_btn"><-</button>
+            </div>
+            <div class="right">
+                <button class="right_btn">-></button>
+            </div>
+
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
 </body>
 </html>
